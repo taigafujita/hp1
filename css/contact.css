@@ -1,0 +1,171 @@
+/*フレームワーク*/
+body {
+  font-size: 17px;
+  font-family: Yumincho;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: rgb(19, 19, 19);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10em;
+}
+
+.header-wrap {
+  display: flex;
+  width: 100%;
+  background-image: url(../img/cintact-topimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.header-text {
+  writing-mode: vertical-rl;
+}
+
+.header-text li:hover {
+  color: #FF5A26;
+}
+
+.header-icon {
+  display: flex;
+  position: absolute;
+  top: 2em;
+  left: 3%;
+}
+
+.header-icon h1 {
+  color: black;
+  padding: 10px 10px 10px 15px;
+}
+
+.header-text ul {
+  position: absolute;
+  top: 2em;
+  right: 6%;
+}
+
+.header-text li {
+  color: black;
+  padding-right: 3rem;
+  font-size: 15px;
+  letter-spacing: 13px;
+}
+
+.footer {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%, #FF5A26 50%, #FF5A26 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.footer-left {
+  width: 50%;
+  font-size: 14px;
+}
+
+.footer-left span {
+  color: #383838;
+  font-size: 13px;
+  padding-top: 90px;
+}
+
+.footer-right {
+  writing-mode: vertical-rl;
+}
+
+.footer-right li {
+  padding-left: 20%;
+  color: white;
+  letter-spacing: 1em;
+  font-size: 14px;
+}
+
+.footer-right li:hover {
+  color: #383838;
+}
+
+.top-back {
+  position: absolute;
+  padding-top: 12em;
+  right: 3em;
+}
+
+/*フレームワーク*/
+.main{
+  padding-top: 4em;
+  text-align: center;
+}
+.main h3{
+  margin: 0 auto;
+  font-weight: 500;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  font-size: 18px;
+  width: 30%;
+}
+#contact {
+  background: rgb(255, 255, 255);
+}
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+  width: 10%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid rgb(255, 94, 0) 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: #FF5A26;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+}
+.button_submit:hover{
+  background-color: rgb(255, 224, 98);
+  color: #383838;
+}
