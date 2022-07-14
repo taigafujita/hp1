@@ -22,7 +22,7 @@ li{
   background-size:cover;
   background-repeat: no-repeat;
   height: 700px;
-  margin-top: 110px;
+  margin-top: 210px;
 }
 .header-text{
   writing-mode: vertical-rl;
@@ -86,21 +86,27 @@ li{
   padding-top: 3em;
 }
 .works-wrap{
-  text-align: center;
   padding-top: 4em;
 }
 .works-title{
-  padding-bottom: 1em;
+  text-align: center;
+}
+.works-back{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:left;
+  flex-wrap: wrap;
 }
 .works-img{
   background-image: url(../img/sekou-back.jpg);
 }
 .works-main{
+  width: auto;
   padding-top: 3em;
-  display: inline-block;
+  padding-left: 2em;
 }
 .works-main img{
-  max-width: 100%;
   height: auto;
   vertical-align: bottom;
 }
@@ -117,6 +123,7 @@ li{
   padding-top: 5em;
   padding-left: 6%;
   padding-bottom: 2em;
+  text-align: center;
 }
 .saiyou-wrap{
   margin-top: 5em;
@@ -147,6 +154,7 @@ li{
   width: 40%;
   font-size: 14px;
   line-height: 2;
+  text-align: left;
 }
 .saiyou-main img{
   padding-left: 20%;
